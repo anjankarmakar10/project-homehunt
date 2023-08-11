@@ -55,6 +55,7 @@ const PopularLocations = () => {
       </header>
       <div>
         <Swiper
+          width={100}
           slidesPerView={1}
           spaceBetween={5}
           loop={true}
