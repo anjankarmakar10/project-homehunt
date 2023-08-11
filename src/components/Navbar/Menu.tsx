@@ -5,13 +5,13 @@ const Menu = () => {
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
         <li>
-          <MenuItem>Item 1</MenuItem>
+          <MenuItem>Home</MenuItem>
         </li>
         <li>
-          <MenuItem>Item 2</MenuItem>
+          <MenuItem>Houses</MenuItem>
         </li>
         <li>
-          <MenuItem>Item 3</MenuItem>
+          <MenuItem>About</MenuItem>
         </li>
       </ul>
     </div>
