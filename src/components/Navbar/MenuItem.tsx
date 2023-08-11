@@ -3,6 +3,6 @@ interface Props {
 }
 
 const MenuItem = ({ children }: Props) => {
-  return <a>{children}</a>;
+  return <a className="font-medium">{children}</a>;
 };
 export default MenuItem;

@@ -1,7 +1,7 @@
-import Footer from "../../components/Footer/Footer";
 import Hero from "./sections/Hero";
 import PopularHouses from "./sections/PopularHouses";
 import PopularLocations from "./sections/PopularLocations";
+import Reviews from "./sections/Reviews";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <div className="container mx-auto px-4 pt-20">
         <PopularLocations />
         <PopularHouses />
-        <Footer></Footer>
+        <Reviews />
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 bg-base-200 text-base-content">
+      <footer className="footer p-10 bg-base-200 text-base-content py-16">
         <div>
           <a href="#" className="font-bold text-2xl text-secondary">
             homehunt
@@ -9,7 +9,7 @@ const Footer = () => {
           <p>
             Homehunt Tech Limited
             <br />
-           House Rent Provider since 2023
+            House Rent Provider since 2023
           </p>
         </div>
         <div>
