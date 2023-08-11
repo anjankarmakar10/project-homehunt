@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.opacity-layer {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(180deg, rgba(4, 20, 43, 0.5) 0%, #04152d 90.17%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.hero-bg {
+  background-image: url(./assets/img/hero.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.grid-fluid {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.swiper-horizontal {
+  overflow: visible;
+}
