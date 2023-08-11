@@ -37,7 +37,3 @@
 .grid-fluid {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
-
-.swiper-horizontal {
-  overflow: visible;
-}

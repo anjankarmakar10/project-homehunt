@@ -10,8 +10,8 @@ const Home = () => {
       <div className="container mx-auto px-4 pt-20">
         <PopularLocations />
         <PopularHouses />
-        <Reviews />
       </div>
+      <Reviews />
     </>
   );
 };
