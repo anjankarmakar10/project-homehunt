@@ -7,25 +7,20 @@ interface Props {
 
 const HouseCard = ({ house }: Props) => {
   return (
-    <article className="card w-full bg-base-100 shadow  overflow-hidden cursor-pointer rounded">
-      <figure className="p-4">
-        {/* <img
-          src={house.house_img}
-          alt="Shoes"
-          className="w-full h-64 md:h-60 rounded-xl object-cover"
-        /> */}
+    <article className="card w-full bg-base-100 shadow  overflow-hidden cursor-pointer rounded-md border border-transparent hover:border-neutral transition">
+      <figure className="p-8 md:p-4">
         <LazyImage
           className="w-full h-64 md:h-60 rounded-xl object-cover"
           src={house.house_img}
           alt={house.info}
         />
       </figure>
-      <div className="card-body p-4 pt-0">
-        <div className="flex justify-between items-center">
+      <div className="card-body p-8 md:p-4 pt-0 text-center md:text-start">
+        <div className="flex justify-between items-center flex-col gap-4 md:flex-row ">
           <h2 className="card-title">{house.location}</h2>
           <div className="border px-3 py-1 rounded text-sm">{house.rating}</div>
         </div>
-        <div className="flex gap-1 items-center">
+        <div className="flex gap-1 items-center mx-auto md:mx-0">
           <FaBangladeshiTakaSign />
           <span className="font-medium">{house.fare}</span>
         </div>

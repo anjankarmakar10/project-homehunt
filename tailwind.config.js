@@ -33,7 +33,7 @@ export default {
 
           accent: "#9ff9f2",
 
-          neutral: "#292234",
+          neutral: "#fff",
 
           "base-100": "#04152D",
 

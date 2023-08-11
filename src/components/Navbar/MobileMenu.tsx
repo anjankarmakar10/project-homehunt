@@ -24,13 +24,13 @@ const MobileMenu = () => {
         className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
       >
         <li>
-          <MenuItem>Item 1</MenuItem>
+          <MenuItem>Home</MenuItem>
         </li>
         <li>
-          <MenuItem>Item 2</MenuItem>
+          <MenuItem>Houses</MenuItem>
         </li>
         <li>
-          <MenuItem>Item 3</MenuItem>
+          <MenuItem>About</MenuItem>
         </li>
       </ul>
     </div>
