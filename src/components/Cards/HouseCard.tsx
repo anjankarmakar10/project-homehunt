@@ -1,5 +1,6 @@
 import House from "../../models/House";
 import { FaBangladeshiTakaSign } from "react-icons/fa6";
+import LazyImage from "../Image/LazyImage";
 interface Props {
   house: House;
 }
@@ -7,11 +8,16 @@ interface Props {
 const HouseCard = ({ house }: Props) => {
   return (
     <article className="card w-full bg-base-100 shadow  overflow-hidden cursor-pointer rounded">
-      <figure className="p-4  ">
-        <img
+      <figure className="p-4">
+        {/* <img
           src={house.house_img}
           alt="Shoes"
           className="w-full h-64 md:h-60 rounded-xl object-cover"
+        /> */}
+        <LazyImage
+          className="w-full h-64 md:h-60 rounded-xl object-cover"
+          src={house.house_img}
+          alt={house.info}
         />
       </figure>
       <div className="card-body p-4 pt-0">
