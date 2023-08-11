@@ -134,7 +134,7 @@ export default [
     bedroom: 2,
     kitchen: 1,
     house_img:
-      "https://img.freepik.com/premium-photo/external-view-contemporary-house-with-pool-dusk_190619-224.jpg?size=626&ext=jpg&uid=R62355203&ga=GA1.2.1436202133.1673093708&semt=ais",
+      "https://img.freepik.com/free-photo/3d-electric-car-building_23-2148972401.jpg?size=626&ext=jpg&uid=R62355203&ga=GA1.2.1436202133.1673093708&semt=ais",
     location: "Badda, Dhaka",
     land_lord_contact: "+8801634578901",
     fare: "23000 per month",
